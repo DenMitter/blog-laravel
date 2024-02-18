@@ -1,43 +1,41 @@
-**Blog**
+# Blog
 This project is a blog implemented using the Laravel framework. It provides the ability to create, edit, and interact with articles and users. Additionally, it includes functionality for likes, an administrative panel, categories, posts, and tags.
 
-Features
-User Authentication and Authorization: Users can create accounts and log in.
+## Features
+- **User Authentication and Authorization:** Users can create accounts and log in.
 
-Administrative Panel: Administrators have access to a special administrative panel to manage articles, users, categories, and other site settings.
+- **Administrative Panel:** Administrators have access to a special administrative panel to manage articles, users, categories, and other site settings.
 
-Creating, Editing, and Deleting Articles: Users can create new articles, edit, and delete existing ones.
+- **Creating, Editing, and Deleting Articles:** Users can create new articles, edit, and delete existing ones.
 
-Likes: Users can like articles, expressing their appreciation.
+- **Likes:** Users can like articles, expressing their appreciation.
 
-Top Articles by Likes on Homepage: The homepage displays a list of the most popular articles by the number of likes.
+- **Top Articles by Likes on Homepage:** The homepage displays a list of the most popular articles by the number of likes.
 
-Related Articles Block: Under each article on the viewing page, there is a block showing similar articles based on certain criteria.
+- **Related Articles Block:** Under each article on the viewing page, there is a block showing similar articles based on certain criteria.
 
-Installation and Setup
-Clone the Repository: Clone this repository to your local machine using the command:
+## Installation and Setup
+1. **Clone the Repository:** Clone this repository to your local machine using the command:
 
 bash
 Copy code
 git clone https://github.com/your_username/blog.git
-Install Dependencies: Run the composer install command to install the necessary packages.
+1. **Install Dependencies:** Run the composer install command to install the necessary packages.
 
-Configure Environment: Copy the .env.example file to .env and configure the database access parameters.
+1. **Configure Environment:** Copy the .env.example file to .env and configure the database access parameters.
 
-Run Migrations: Execute the php artisan migrate command to run migrations and create tables in the database.
+1. **Run Migrations:** Execute the php artisan migrate command to run migrations and create tables in the database.
 
-Run the Local Server: Run the php artisan serve command to start the local server.
+1. **Run the Local Server:** Run the php artisan serve command to start the local server.
 
-Access the System: Open a web browser and go to http://localhost:8000 to access the blog's homepage.
+1. **Access the System:** Open a web browser and go to http://localhost:8000 to access the blog's homepage.
 
-Technologies Used
-Laravel: PHP framework for web application development.
+## Technologies Used
+- **Laravel:** PHP framework for web application development.
+- **MySQL:** Database management system used for storing user data, articles, categories, etc.
+- **HTML/CSS/JavaScript:** Used for website markup and styling.
 
-MySQL: Database management system used for storing user data, articles, categories, etc.
-
-HTML/CSS/JavaScript: Used for website markup and styling.
-
-Contribution
+## Contribution
 If you encounter any issues, have questions, or suggestions, please open new issues in this repository.
 
 If you wish to contribute to this project, please create your own fork of the repository and submit pull requests with your changes.
