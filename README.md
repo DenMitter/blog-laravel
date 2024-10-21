@@ -27,31 +27,47 @@ This project is a blog implemented using the Laravel framework. It provides the 
 
 - Related Articles Block: Under each article on the viewing page, there is a block showing similar articles based on certain criteria.
 
-## Installation and Setup
+## <b>Installation and Setup</b>
 1. Clone the Repository: Clone this repository to your local machine using the command:
 
-bash
-Copy code
-> git clone https://github.com/DenMitter/blog-laravel.git
+```bash
+git clone https://github.com/DenMitter/blog-laravel.git
+```
+
 1. Install Dependencies: Run the composer install command to install the necessary packages.
+```bash
+composer install
+```
 
 1. Configure Environment: Copy the .env.example file to .env and configure the database access parameters.
+```bash
+cp .env.example .env
+php artisan key:generate
+```
 
-1. Run Migrations: Execute the php artisan migrate command to run migrations and create tables in the database.
+1. Run Migrations and seeders: Execute the php artisan migrate command to run migrations and create tables in the database.
+```bash
+php artisan migrate
+```
 
 1. Run the Local Server: Run the php artisan serve command to start the local server.
+```bash
+php artisan serve
+```
+
+1. Run jobs:
+```
+php artisan queue:work
+```
 
 1. Access the System: Open a web browser and go to http://localhost:8000 to access the blog's homepage.
 
-## Technologies Used
-- Laravel: PHP framework for web application development.
-- MySQL: Database management system used for storing user data, articles, categories, etc.
-- HTML/CSS/JavaScript: Used for website markup and styling.
-
-## Contribution
-If you encounter any issues, have questions, or suggestions, please open new issues in this repository.
-
-If you wish to contribute to this project, please create your own fork of the repository and submit pull requests with your changes.
-
-License
-This project is distributed under the MIT License. You are free to use, modify, and distribute it under the terms of this license.
+<p>
+    <div align="center">
+        <h3>Technologies used</h3>
+        <img src="https://img.shields.io/badge/-HTML-c58545?style=for-the-badge&logo=html5&logoColor=c58545&labelColor=282828">
+        <img src="https://img.shields.io/badge/-Bootstrap-9754ed?style=for-the-badge&logo=bootstrap&logoColor=9754ed&labelColor=282828">
+        <img src="https://img.shields.io/badge/-PHP-609ad3?style=for-the-badge&logo=php&logoColor=609ad3&labelColor=282828">
+        <img src="https://img.shields.io/badge/-Laravel-df5065?style=for-the-badge&logo=laravel&logoColor=df5065&labelColor=282828">
+    </div>
+</p>
