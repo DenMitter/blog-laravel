@@ -1,4 +1,14 @@
-<p align="center"><img src="https://i.ibb.co/HdSbwGZ/logo.png" width="400" alt="Blog Logo"></p>
+<!-- <p align="center"><img src="https://i.ibb.co/HdSbwGZ/logo.png" width="400" alt="Blog Logo"></p> -->
+
+<h1 align="center">
+    <b>Blog</b>
+</h1>
+
+<p align="center">
+This project is a blog implemented using the Laravel framework. It provides the ability to create, edit, and interact with articles and users. Additionally, it includes functionality for likes, an administrative panel, categories, posts, and tags.
+</p>
+
+<br>
 
 <p align="center">
 <a href="https://ibb.co/qBpBC2M"><img src="https://i.ibb.co/99j4qgv/main-page.png" alt="Main page"></a>
@@ -10,9 +20,17 @@
 <a href="https://ibb.co/3CcqN0B"><img src="https://i.ibb.co/5BCG5C1/post-create.png" alt="Create"></a>
 <a href="https://ibb.co/mcdQgmc"><img src="https://i.ibb.co/1rshrp4/post-edit.png" alt="Edit"></a>
 </p>
+<br>
 
-# Blog
-This project is a blog implemented using the Laravel framework. It provides the ability to create, edit, and interact with articles and users. Additionally, it includes functionality for likes, an administrative panel, categories, posts, and tags.
+<p>
+    <div align="center">
+        <h3>Technologies used</h3>
+        <img src="https://img.shields.io/badge/-HTML-c58545?style=for-the-badge&logo=html5&logoColor=c58545&labelColor=282828">
+        <img src="https://img.shields.io/badge/-Bootstrap-9754ed?style=for-the-badge&logo=bootstrap&logoColor=9754ed&labelColor=282828">
+        <img src="https://img.shields.io/badge/-PHP-609ad3?style=for-the-badge&logo=php&logoColor=609ad3&labelColor=282828">
+        <img src="https://img.shields.io/badge/-Laravel-df5065?style=for-the-badge&logo=laravel&logoColor=df5065&labelColor=282828">
+    </div>
+</p>
 
 ## Features
 - User Authentication and Authorization: Users can create accounts and log in.
@@ -34,40 +52,30 @@ This project is a blog implemented using the Laravel framework. It provides the 
 git clone https://github.com/DenMitter/blog-laravel.git
 ```
 
-1. Install Dependencies: Run the composer install command to install the necessary packages.
+2. Install Dependencies: Run the composer install command to install the necessary packages.
 ```bash
 composer install
 ```
 
-1. Configure Environment: Copy the .env.example file to .env and configure the database access parameters.
+3. Configure Environment: Copy the .env.example file to .env and configure the database access parameters.
 ```bash
 cp .env.example .env
 php artisan key:generate
 ```
 
-1. Run Migrations and seeders: Execute the php artisan migrate command to run migrations and create tables in the database.
+4. Run Migrations and seeders: Execute the php artisan migrate command to run migrations and create tables in the database.
 ```bash
 php artisan migrate
 ```
 
-1. Run the Local Server: Run the php artisan serve command to start the local server.
+5. Run the Local Server: Run the php artisan serve command to start the local server.
 ```bash
 php artisan serve
 ```
 
-1. Run jobs:
+6. Run jobs:
 ```
 php artisan queue:work
 ```
 
-1. Access the System: Open a web browser and go to http://localhost:8000 to access the blog's homepage.
-
-<p>
-    <div align="center">
-        <h3>Technologies used</h3>
-        <img src="https://img.shields.io/badge/-HTML-c58545?style=for-the-badge&logo=html5&logoColor=c58545&labelColor=282828">
-        <img src="https://img.shields.io/badge/-Bootstrap-9754ed?style=for-the-badge&logo=bootstrap&logoColor=9754ed&labelColor=282828">
-        <img src="https://img.shields.io/badge/-PHP-609ad3?style=for-the-badge&logo=php&logoColor=609ad3&labelColor=282828">
-        <img src="https://img.shields.io/badge/-Laravel-df5065?style=for-the-badge&logo=laravel&logoColor=df5065&labelColor=282828">
-    </div>
-</p>
+7. Access the System: Open a web browser and go to http://localhost:8000 to access the blog's homepage.
